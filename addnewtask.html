@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="head">
+           <h1><span id="black">Tasks</span> <span id="blue">List</span></h1>
+        </div>
+        <a href="./addnewtask.html"><div class="task">
+           <div class="circle">
+               <div class="plus">
+                   <div class="plus-horizontal">
+                   </div>
+                   <div class="plus-vertical">
+                   </div>
+               </div>
+           </div>
+           <div class="add-task">
+               Add New Task
+           </div>
+        </div></a>
+
+        
+        <div class="boxes">
+           <div class="box box1">
+               <h4>Trip to Paris</h4>
+               <hr>
+               <div class="checkboxed">
+               <div class="checkboxed1">
+                   <div class="tickbox1">
+                       <div class="tick1"></div>
+                       <div class="tick2"></div>
+                   </div>
+               </div>
+               <div class="task1">
+                   <p id="vc">Visit Church</p>
+               </div>
+               </div>
+<!-- here checkboxed is parent for child checkboxed1 and task1 
+inside checkboxed1 which is a grandparent for child tickbox which is a 
+parent of child tick1 and tick2 -->
+               <div class="checkboxed">
+                   <div class="checkboxed1">
+                       <div class="uncheck1">
+                       </div>
+                   </div>
+                   <div class="task1">
+                       <p id="shopping">Shopping</p>
+                   </div>
+                   </div>
+           </div>
+
+           <div class="box box2">
+               <h4>My To Do List</h4>
+               <hr>
+               <div class="checkboxed">
+                   <div class="checkboxed1">
+                       <div class="tickbox1" id="tb1">
+                           <div class="tick1"></div>
+                           <div class="tick2"></div>
+                       </div>
+                   </div>
+                   <div class="task1">
+                       <p id="vs">Visit Supermarket</p>
+                   </div>
+               </div>
+               <div class="checkboxed">
+                   <div class="checkboxed1">
+                       <div class="uncheck1" id="uc1">
+                       </div>
+                   </div>
+                   <div class="task1">
+                       <p id="bv">Buy Vegetables</p>
+                   </div>
+               </div>
+           </div>
+
+           <div class="box box3">
+               <h4>Movies I will Watch</h4>
+               <hr>
+               <div class="checkboxed">
+                   <div class="checkboxed1">
+                       <div class="tickbox1" id="tb2">
+                           <div class="tick1"></div>
+                           <div class="tick2"></div>
+                       </div>
+                   </div>
+                   <div class="task1">
+                       <p id="st">Stranger Things 4</p>
+                   </div>
+               </div>
+               <div class="checkboxed">
+                   <div class="checkboxed1">
+                       <div class="uncheck1" id="uc2">
+                       </div>
+                   </div>
+                   <div class="task1">
+                       <p id="ae">Avengers Endgame</p>
+                   </div>
+               </div>
+           </div>
+
+           <div class="box box4">
+               <h4>Daily Morning Routine for...</h4>
+               <hr>
+               <div class="checkboxed">
+                   <div class="checkboxed1">
+                       <div class="tickbox1" id="tb3">
+                           <div class="tick1"></div>
+                           <div class="tick2"></div>
+                       </div>
+                   </div>
+                   <div class="task1">
+                       <p id="w6">Wake up at 6 AM</p>
+                   </div>
+               </div>
+               <div class="checkboxed">
+                   <div class="checkboxed1">
+                       <div class="uncheck1" id="uc3">
+                       </div>
+                   </div>
+                   <div class="task1">
+                       <p id="s10">Sleep at 10 PM</p>
+                   </div>
+               </div>
+           </div>
+
+           <div class="box box5">
+               <h4>Books to Read</h4>
+               <hr>
+               <div class="checkboxed">
+                   <div class="checkboxed1">
+                       <div class="tickbox1" id="tb4">
+                           <div class="tick1"></div>
+                           <div class="tick2"></div>
+                       </div>
+                   </div>
+                   <div class="task1">
+                       <p id="de">Design of Everyday</p>
+                   </div>
+               </div>
+               <div class="checkboxed">
+                   <div class="checkboxed1">
+                       <div class="uncheck1" id="uc4">
+                       </div>
+                   </div>
+                   <div class="task1">
+                       <p id="alchemist">Alchemist</p>
+                   </div>
+               </div>
+               
+           </div>
+       </div>
+       <br><br> 
+    </div>
+<!-- for blur screen -->
+    <div class="blur"></div>
+    <div class="popup-screen">
+    <div class="addnewtask">
+        <p>Add New Task</p>
+        <a href="./index.html"><img id="close" src="./close.png"></a>
+    </div>
+    <hr>
+    <p id="para">Learn C++</p>
+    <button class="add"> <img src="./add.png" id="addimg">
+        <p id="p1">Add Task</p></button>
+    </div>
+</body>
+</html>
